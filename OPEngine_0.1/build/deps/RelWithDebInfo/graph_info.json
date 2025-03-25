@@ -1,0 +1,58 @@
+{
+ "options": [
+  [
+   "glew:shared",
+   "False"
+  ],
+  [
+   "glfw:shared",
+   "False"
+  ],
+  [
+   "glfw:vulkan_static",
+   "False"
+  ],
+  [
+   "imgui:shared",
+   "False"
+  ],
+  [
+   "lua:compile_as_cpp",
+   "False"
+  ],
+  [
+   "lua:shared",
+   "False"
+  ],
+  [
+   "lua:with_readline",
+   "False"
+  ],
+  [
+   "lua:with_tools",
+   "False"
+  ],
+  [
+   "openal-soft:shared",
+   "False"
+  ],
+  [
+   "stb:with_deprecated",
+   "True"
+  ],
+  [
+   "tinyobjloader:double",
+   "False"
+  ],
+  [
+   "tinyobjloader:shared",
+   "False"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}

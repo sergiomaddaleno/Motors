@@ -1,0 +1,43 @@
+########### AGGREGATED COMPONENTS AND DEPENDENCIES FOR THE MULTI CONFIG #####################
+#############################################################################################
+
+set(shaderc_COMPONENT_NAMES "")
+list(APPEND shaderc_FIND_DEPENDENCY_NAMES glslang SPIRV-Tools SPIRV-Tools SPIRV-Headers)
+list(REMOVE_DUPLICATES shaderc_FIND_DEPENDENCY_NAMES)
+set(glslang_FIND_MODE "NO_MODULE")
+set(SPIRV-Tools_FIND_MODE "NO_MODULE")
+set(SPIRV-Headers_FIND_MODE "NO_MODULE")
+
+########### VARIABLES #######################################################################
+#############################################################################################
+set(shaderc_PACKAGE_FOLDER_RELWITHDEBINFO "C:/Users/Usuario/.conan/data/shaderc/2024.1/_/_/package/f53d07af142a10b4cdae177a18966182d3629969")
+set(shaderc_BUILD_MODULES_PATHS_RELWITHDEBINFO )
+
+
+set(shaderc_INCLUDE_DIRS_RELWITHDEBINFO "${shaderc_PACKAGE_FOLDER_RELWITHDEBINFO}/include")
+set(shaderc_RES_DIRS_RELWITHDEBINFO )
+set(shaderc_DEFINITIONS_RELWITHDEBINFO )
+set(shaderc_SHARED_LINK_FLAGS_RELWITHDEBINFO )
+set(shaderc_EXE_LINK_FLAGS_RELWITHDEBINFO )
+set(shaderc_OBJECTS_RELWITHDEBINFO )
+set(shaderc_COMPILE_DEFINITIONS_RELWITHDEBINFO )
+set(shaderc_COMPILE_OPTIONS_C_RELWITHDEBINFO )
+set(shaderc_COMPILE_OPTIONS_CXX_RELWITHDEBINFO )
+set(shaderc_LIB_DIRS_RELWITHDEBINFO "${shaderc_PACKAGE_FOLDER_RELWITHDEBINFO}/lib")
+set(shaderc_LIBS_RELWITHDEBINFO shaderc shaderc_util)
+set(shaderc_SYSTEM_LIBS_RELWITHDEBINFO )
+set(shaderc_FRAMEWORK_DIRS_RELWITHDEBINFO )
+set(shaderc_FRAMEWORKS_RELWITHDEBINFO )
+set(shaderc_BUILD_DIRS_RELWITHDEBINFO "${shaderc_PACKAGE_FOLDER_RELWITHDEBINFO}/")
+
+# COMPOUND VARIABLES
+set(shaderc_COMPILE_OPTIONS_RELWITHDEBINFO
+    "$<$<COMPILE_LANGUAGE:CXX>:${shaderc_COMPILE_OPTIONS_CXX_RELWITHDEBINFO}>"
+    "$<$<COMPILE_LANGUAGE:C>:${shaderc_COMPILE_OPTIONS_C_RELWITHDEBINFO}>")
+set(shaderc_LINKER_FLAGS_RELWITHDEBINFO
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:${shaderc_SHARED_LINK_FLAGS_RELWITHDEBINFO}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,MODULE_LIBRARY>:${shaderc_SHARED_LINK_FLAGS_RELWITHDEBINFO}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:${shaderc_EXE_LINK_FLAGS_RELWITHDEBINFO}>")
+
+
+set(shaderc_COMPONENTS_RELWITHDEBINFO )

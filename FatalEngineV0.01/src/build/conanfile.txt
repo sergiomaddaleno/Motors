@@ -1,0 +1,13 @@
+[requires]
+glfw/3.3.8
+glew/2.2.0
+glm/0.9.9.8
+assimp/5.0.1
+shaderc/2024.1
+glad/0.1.36
+stb/cci.20240531
+lua/5.4.7
+
+[generators]
+premake
+

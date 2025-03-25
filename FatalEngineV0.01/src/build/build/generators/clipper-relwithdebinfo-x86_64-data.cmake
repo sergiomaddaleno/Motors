@@ -1,0 +1,39 @@
+########### AGGREGATED COMPONENTS AND DEPENDENCIES FOR THE MULTI CONFIG #####################
+#############################################################################################
+
+set(clipper_COMPONENT_NAMES "")
+set(clipper_FIND_DEPENDENCY_NAMES "")
+
+########### VARIABLES #######################################################################
+#############################################################################################
+set(clipper_PACKAGE_FOLDER_RELWITHDEBINFO "C:/Users/Usuario/.conan/data/clipper/4.10.0/_/_/package/270dc4a2f77a5fc63ad24b950295fddb3a32f993")
+set(clipper_BUILD_MODULES_PATHS_RELWITHDEBINFO )
+
+
+set(clipper_INCLUDE_DIRS_RELWITHDEBINFO "${clipper_PACKAGE_FOLDER_RELWITHDEBINFO}/include")
+set(clipper_RES_DIRS_RELWITHDEBINFO )
+set(clipper_DEFINITIONS_RELWITHDEBINFO )
+set(clipper_SHARED_LINK_FLAGS_RELWITHDEBINFO )
+set(clipper_EXE_LINK_FLAGS_RELWITHDEBINFO )
+set(clipper_OBJECTS_RELWITHDEBINFO )
+set(clipper_COMPILE_DEFINITIONS_RELWITHDEBINFO )
+set(clipper_COMPILE_OPTIONS_C_RELWITHDEBINFO )
+set(clipper_COMPILE_OPTIONS_CXX_RELWITHDEBINFO )
+set(clipper_LIB_DIRS_RELWITHDEBINFO "${clipper_PACKAGE_FOLDER_RELWITHDEBINFO}/lib")
+set(clipper_LIBS_RELWITHDEBINFO polyclipping)
+set(clipper_SYSTEM_LIBS_RELWITHDEBINFO )
+set(clipper_FRAMEWORK_DIRS_RELWITHDEBINFO )
+set(clipper_FRAMEWORKS_RELWITHDEBINFO )
+set(clipper_BUILD_DIRS_RELWITHDEBINFO "${clipper_PACKAGE_FOLDER_RELWITHDEBINFO}/")
+
+# COMPOUND VARIABLES
+set(clipper_COMPILE_OPTIONS_RELWITHDEBINFO
+    "$<$<COMPILE_LANGUAGE:CXX>:${clipper_COMPILE_OPTIONS_CXX_RELWITHDEBINFO}>"
+    "$<$<COMPILE_LANGUAGE:C>:${clipper_COMPILE_OPTIONS_C_RELWITHDEBINFO}>")
+set(clipper_LINKER_FLAGS_RELWITHDEBINFO
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:${clipper_SHARED_LINK_FLAGS_RELWITHDEBINFO}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,MODULE_LIBRARY>:${clipper_SHARED_LINK_FLAGS_RELWITHDEBINFO}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:${clipper_EXE_LINK_FLAGS_RELWITHDEBINFO}>")
+
+
+set(clipper_COMPONENTS_RELWITHDEBINFO )

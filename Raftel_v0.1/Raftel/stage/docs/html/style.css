@@ -1,0 +1,116 @@
+body {
+  background-color: #FFDAB9; /* un tono claro de fondo */
+  color: #272727; /* casi negro para el texto */
+  font-family: 'Black Ops One', cursive; /* fuente con toque de aventura */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(to right, #003366, #006699); /* gradiente de azul */
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  background-color: #f4f4f1; /* fondo claro para el hover */
+  color: #272727; /* texto oscuro para el hover */
+}
+
+footer {
+  background: #003366; /* azul oscuro */
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+main {
+  padding: 20px;
+  text-align: left;
+}
+
+pre {
+  background-color: #333; /* Fondo negro */
+  color: #f8f8f2; /* Texto claro, similar al color de la crema */
+  padding: 10px;
+  border-radius: 5px; /* Bordes redondeados */
+  overflow: auto; /* Añade scroll si el contenido es muy ancho */
+  line-height: 1.5; /* Espaciado de línea para mejorar la legibilidad */
+  font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada para código */
+}
+
+code {
+  display: block; /* Hace que el código sea un bloque para aplicar padding adecuadamente */
+  white-space: pre-wrap; /* Mantiene el formato de los espacios y saltos de línea */
+  word-wrap: break-word; /* Permite la ruptura de línea dentro de palabras si es necesario */
+}
+
+
+.button {
+  background-color: #0077cc; /* azul */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #f4d03f; /* dorado */
+}
+/* Estilo para la lista de tutoriales con botones y marcadores visibles */
+ul.tutorial-list {
+  list-style: none; /* Elimina los marcadores predeterminados */
+  padding: 0; /* Sin padding adicional */
+}
+
+ul.tutorial-list li {
+  display: flex; /* Alinea el icono y el botón horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  margin-bottom: 15px; /* Espacio entre elementos */
+  padding-left: 40px; /* Espacio para el icono fuera del botón */
+  background: url('img/tiller_icon.png') no-repeat left center; /* Icono fuera del botón */
+  background-size: 30px 30px; /* Ajusta el tamaño del icono */
+}
+
+ul.tutorial-list li a {
+  display: inline-block;
+  background-color: #f0f0f0; /* Fondo gris claro para el botón */
+  color: #333; /* Texto en gris oscuro para contraste */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ul.tutorial-list li a:hover {
+  background-color: #e0e0e0; /* Gris más oscuro al pasar el cursor */
+  color: #000; /* Texto en negro para mayor contraste */
+  cursor: pointer;
+}
+
